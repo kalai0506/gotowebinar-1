@@ -1,0 +1,104 @@
+[2015-03-24 14:45:57 IST] <main> org.springframework.beans.factory.xml.XmlBeanDefinitionReader - INFO: Loading XML bean definitions from class path resource [base-test.xml]
+[2015-03-24 14:45:57 IST] <main> org.springframework.beans.factory.xml.XmlBeanDefinitionReader - INFO: Loading XML bean definitions from class path resource [base-test-ed1.xml]
+[2015-03-24 14:45:57 IST] <main> org.springframework.context.support.GenericApplicationContext - INFO: Refreshing org.springframework.context.support.GenericApplicationContext@78ac15cd: startup date [Tue Mar 24 14:45:57 IST 2015]; root of context hierarchy
+[2015-03-24 14:45:57 IST] <main> org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - INFO: Loading properties file from class path resource [serversettings/ed1.properties]
+[2015-03-24 14:45:57 IST] <main> org.springframework.beans.factory.support.DefaultListableBeanFactory - INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f8953fb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyUtil,authService,sessionsApi,session,accountService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+[2015-03-24 14:46:00 IST] <main> org.springframework.beans.factory.support.DefaultListableBeanFactory - INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f8953fb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyUtil,authService,sessionsApi,session,accountService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+[2015-03-24 14:46:00 IST] <main> org.springframework.test.context.TestContextManager - ERROR: Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3be16eb2] to prepare test instance [com.citrix.g2w.webdriver.tests.branding.settings.BrandingSettingsPageWebDriverTests@1bce7242]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:308)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'session': Invocation of init method failed; nested exception is java.lang.RuntimeException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:133)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:518)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:585)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:84)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:280)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:304)
+	... 28 more
+Caused by: java.lang.RuntimeException: java.net.ConnectException: Connection refused: connect
+	at com.citrix.g2w.webdriver.clients.Endpoint.<init>(Endpoint.java:140)
+	at com.citrix.g2w.webdriver.flows.Session.init(Session.java:405)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:340)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:293)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:130)
+	... 43 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.citrix.g2w.webdriver.clients.Endpoint.<init>(Endpoint.java:128)
+	... 51 more
+[2015-03-24 14:50:16 IST] <main> org.springframework.beans.factory.xml.XmlBeanDefinitionReader - INFO: Loading XML bean definitions from class path resource [base-test.xml]
+[2015-03-24 14:50:17 IST] <main> org.springframework.beans.factory.xml.XmlBeanDefinitionReader - INFO: Loading XML bean definitions from class path resource [base-test-ed1.xml]
+[2015-03-24 14:50:17 IST] <main> org.springframework.context.support.GenericApplicationContext - INFO: Refreshing org.springframework.context.support.GenericApplicationContext@6f4a3622: startup date [Tue Mar 24 14:50:17 IST 2015]; root of context hierarchy
+[2015-03-24 14:50:17 IST] <main> org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - INFO: Loading properties file from class path resource [serversettings/ed1.properties]
+[2015-03-24 14:50:17 IST] <main> org.springframework.beans.factory.support.DefaultListableBeanFactory - INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4dc867a0: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyUtil,authService,sessionsApi,session,accountService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+[2015-03-24 14:50:18 IST] <main> com.citrix.comm.stack.egw.RpcCommStackFactoryImpl - INFO: Creating comm stack for G2WRPCTest_1427188818372
+[2015-03-24 15:03:20 IST] <Thread-0> org.springframework.context.support.GenericApplicationContext - INFO: Closing org.springframework.context.support.GenericApplicationContext@6f4a3622: startup date [Tue Mar 24 14:50:17 IST 2015]; root of context hierarchy
+[2015-03-24 15:03:20 IST] <Thread-0> org.springframework.beans.factory.support.DefaultListableBeanFactory - INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4dc867a0: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyUtil,authService,sessionsApi,session,accountService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+[2015-03-24 15:23:33 IST] <main> org.springframework.beans.factory.xml.XmlBeanDefinitionReader - INFO: Loading XML bean definitions from class path resource [base-test.xml]
+[2015-03-24 15:23:33 IST] <main> org.springframework.beans.factory.xml.XmlBeanDefinitionReader - INFO: Loading XML bean definitions from class path resource [base-test-ed1.xml]
+[2015-03-24 15:23:33 IST] <main> org.springframework.context.support.GenericApplicationContext - INFO: Refreshing org.springframework.context.support.GenericApplicationContext@71282b42: startup date [Tue Mar 24 15:23:33 IST 2015]; root of context hierarchy
+[2015-03-24 15:23:33 IST] <main> org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - INFO: Loading properties file from class path resource [serversettings/ed1.properties]
+[2015-03-24 15:23:33 IST] <main> org.springframework.beans.factory.support.DefaultListableBeanFactory - INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f8953fb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyUtil,authService,sessionsApi,session,accountService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+[2015-03-24 15:23:34 IST] <main> com.citrix.comm.stack.egw.RpcCommStackFactoryImpl - INFO: Creating comm stack for G2WRPCTest_1427190814610
+[2015-03-24 15:26:59 IST] <Thread-0> org.springframework.context.support.GenericApplicationContext - INFO: Closing org.springframework.context.support.GenericApplicationContext@71282b42: startup date [Tue Mar 24 15:23:33 IST 2015]; root of context hierarchy
+[2015-03-24 15:26:59 IST] <Thread-0> org.springframework.beans.factory.support.DefaultListableBeanFactory - INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f8953fb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyUtil,authService,sessionsApi,session,accountService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+[2015-03-24 15:55:12 IST] <main> org.springframework.beans.factory.xml.XmlBeanDefinitionReader - INFO: Loading XML bean definitions from class path resource [base-test.xml]
+[2015-03-24 15:55:12 IST] <main> org.springframework.beans.factory.xml.XmlBeanDefinitionReader - INFO: Loading XML bean definitions from class path resource [base-test-ed1.xml]
+[2015-03-24 15:55:13 IST] <main> org.springframework.context.support.GenericApplicationContext - INFO: Refreshing org.springframework.context.support.GenericApplicationContext@4303418: startup date [Tue Mar 24 15:55:13 IST 2015]; root of context hierarchy
+[2015-03-24 15:55:13 IST] <main> org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - INFO: Loading properties file from class path resource [serversettings/ed1.properties]
+[2015-03-24 15:55:13 IST] <main> org.springframework.beans.factory.support.DefaultListableBeanFactory - INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@62a541e5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyUtil,authService,sessionsApi,session,accountService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+[2015-03-24 15:55:14 IST] <main> com.citrix.comm.stack.egw.RpcCommStackFactoryImpl - INFO: Creating comm stack for G2WRPCTest_1427192714306
+[2015-03-24 16:15:25 IST] <Thread-0> org.springframework.context.support.GenericApplicationContext - INFO: Closing org.springframework.context.support.GenericApplicationContext@4303418: startup date [Tue Mar 24 15:55:13 IST 2015]; root of context hierarchy
+[2015-03-24 16:15:25 IST] <Thread-0> org.springframework.beans.factory.support.DefaultListableBeanFactory - INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@62a541e5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyUtil,authService,sessionsApi,session,accountService,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Service URL: https://globaled1.gotowebinar.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Created personal account: Account key: 6859143126563671050, User key: 4008305188810247178, Email: webtest.user-1427268630560-1@jedix.com, FirstName: auto, LastName: org<br>]]>
+    </line>
+    <line>
+      <![CDATA[created account<br>]]>
+    </line>
+    <line>
+      <![CDATA[trying to login<br>]]>
+    </line>
+    <line>
+      <![CDATA[Service URLhttps://globaled1.gotowebinar.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Could not find presence of element: By.xpath: //div[@id='loginForm'] <a href="1427268696382-1.html" target="_blank">Resulting Page</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[trying to login<br>]]>
+    </line>
+    <line>
+      <![CDATA[Service URLhttps://globaled1.gotowebinar.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Could not find presence of element: By.xpath: //div[@id='loginForm'] <a href="1427268740401-1.html" target="_blank">Resulting Page</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[On page: https://globaled1.g2w.test.expertcity.com/webinars.tmpl<br>]]>
+    </line>
+    <line>
+      <![CDATA[Logged in as webtest.user-1427268630560-1@jedix.com <a href="1427268751797-1.html" target="_blank">Resulting Page</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[findClickableElement failed. <a href="1427268782047-1.html" target="_blank">Resulting Page</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Schedule A Webinar Page <a href="1427268782393-1.html" target="_blank">Resulting Page</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[Scheduling webinar with name: Webinars - 1427268793463-1 and description: Webinars Description - 1427268793463-1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Scheduled webinar with name: Webinars - 1427268793463-1 <a href="1427268802544-1.html" target="_blank">Resulting Page</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[Scheduling webinar with name: Webtest Webinar-1329959235-76418547 name can be edited after copy and description: Webtest Webinar description can be edited<br>]]>
+    </line>
+    <line>
+      <![CDATA[Scheduled webinar with name: Webtest Webinar-1329959235-76418547 name can be edited after copy <a href="1427268823038-1.html" target="_blank">Resulting Page</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[findClickableElement failed. <a href="1427268864222-1.html" target="_blank">Resulting Page</a><br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="237362" started-at="2015-03-25T07:30:27Z" finished-at="2015-03-25T07:34:24Z">
+    <groups>
+      <group name="Registration">
+        <method signature="ScheduleSimilarWebnarPageWebdriverTest.verifyThatMyWebnarpageShowsNewlyCopiedWebnar()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="verifyThatMyWebnarpageShowsNewlyCopiedWebnar" class="com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest"/>
+      </group> <!-- Registration -->
+      <group name="ManageWebinar">
+        <method signature="ScheduleSimilarWebnarPageWebdriverTest.verifyThatMyWebnarpageShowsNewlyCopiedWebnar()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="verifyThatMyWebnarpageShowsNewlyCopiedWebnar" class="com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest"/>
+      </group> <!-- ManageWebinar -->
+      <group name="Personal">
+        <method signature="ScheduleSimilarWebnarPageWebdriverTest.verifyThatMyWebnarpageShowsNewlyCopiedWebnar()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="verifyThatMyWebnarpageShowsNewlyCopiedWebnar" class="com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest"/>
+      </group> <!-- Personal -->
+    </groups>
+    <test name="Default test" duration-ms="237362" started-at="2015-03-25T07:30:27Z" finished-at="2015-03-25T07:34:24Z">
+      <class name="com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="33" started-at="2015-03-25T13:00:27Z" finished-at="2015-03-25T13:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2908" started-at="2015-03-25T13:00:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-03-25T13:00:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Service URL: https://globaled1.gotowebinar.com<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-03-25T13:00:30Z" finished-at="2015-03-25T13:00:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dd07b8e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-03-25T13:00:30Z" finished-at="2015-03-25T13:00:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest.verifyThatMyWebnarpageShowsNewlyCopiedWebnar()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyThatMyWebnarpageShowsNewlyCopiedWebnar()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="verifyThatMyWebnarpageShowsNewlyCopiedWebnar" duration-ms="233879" started-at="2015-03-25T13:00:30Z" description="schedule similar webnar)" finished-at="2015-03-25T13:04:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Created personal account: Account key: 6859143126563671050, User key: 4008305188810247178, Email: webtest.user-1427268630560-1@jedix.com, FirstName: auto, LastName: org<br>]]>
+            </line>
+            <line>
+              <![CDATA[created account<br>]]>
+            </line>
+            <line>
+              <![CDATA[trying to login<br>]]>
+            </line>
+            <line>
+              <![CDATA[Service URLhttps://globaled1.gotowebinar.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[Could not find presence of element: By.xpath: //div[@id='loginForm'] <a href="1427268696382-1.html" target="_blank">Resulting Page</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[trying to login<br>]]>
+            </line>
+            <line>
+              <![CDATA[Service URLhttps://globaled1.gotowebinar.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[Could not find presence of element: By.xpath: //div[@id='loginForm'] <a href="1427268740401-1.html" target="_blank">Resulting Page</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[On page: https://globaled1.g2w.test.expertcity.com/webinars.tmpl<br>]]>
+            </line>
+            <line>
+              <![CDATA[Logged in as webtest.user-1427268630560-1@jedix.com <a href="1427268751797-1.html" target="_blank">Resulting Page</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[findClickableElement failed. <a href="1427268782047-1.html" target="_blank">Resulting Page</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to Schedule A Webinar Page <a href="1427268782393-1.html" target="_blank">Resulting Page</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[Scheduling webinar with name: Webinars - 1427268793463-1 and description: Webinars Description - 1427268793463-1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Scheduled webinar with name: Webinars - 1427268793463-1 <a href="1427268802544-1.html" target="_blank">Resulting Page</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[Scheduling webinar with name: Webtest Webinar-1329959235-76418547 name can be edited after copy and description: Webtest Webinar description can be edited<br>]]>
+            </line>
+            <line>
+              <![CDATA[Scheduled webinar with name: Webtest Webinar-1329959235-76418547 name can be edited after copy <a href="1427268823038-1.html" target="_blank">Resulting Page</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[findClickableElement failed. <a href="1427268864222-1.html" target="_blank">Resulting Page</a><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatMyWebnarpageShowsNewlyCopiedWebnar -->
+        <test-method status="PASS" signature="afterMethodWebDriverTest()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="afterMethodWebDriverTest" is-config="true" duration-ms="527" started-at="2015-03-25T13:04:24Z" finished-at="2015-03-25T13:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodWebDriverTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-03-25T13:04:24Z" finished-at="2015-03-25T13:04:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest.verifyThatMyWebnarpageShowsNewlyCopiedWebnar()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-03-25T13:04:24Z" finished-at="2015-03-25T13:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="cleanUpWebDriver()[pri:0, instance:com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest@6ef66f2f]" name="cleanUpWebDriver" is-config="true" duration-ms="0" started-at="2015-03-25T13:04:24Z" finished-at="2015-03-25T13:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpWebDriver -->
+      </class> <!-- com.citrix.g2w.webdriver.tests.managewebinar.ScheduleSimilarWebnarPageWebdriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

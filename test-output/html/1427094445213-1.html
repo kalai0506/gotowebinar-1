@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html class="ie9"><img id="backgroundImage" src="/static/g2w/images/g2wBackgroundSmall.png"><![endif]-->
+<!--[if lt IE 9 ]> <html class="ieold"><img id="backgroundImage" src="/static/g2w/images/g2wBackgroundSmall.png"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]--><head lang="en"><script type="text/javascript" async="async" src="https://citrixsaas.d1.sc.omtrdc.net/id?mid=21372385629234438632329597569737051712&amp;callback=s_c_il%5B1%5D._setAnalyticsFields"></script><script type="text/javascript" async="async" src="https://dpm.demdex.net/id?d_rtbd=json&amp;d_ver=2&amp;d_orgid=96E41C8B53295D990A490D4D%40AdobeOrg&amp;d_cb=s_c_il%5B1%5D._setMarketingCloudFields"></script>
+    <meta charset="utf-8" />
+    <meta content="" name="description" />
+    <meta content="width=device-width" name="viewport" />
+
+    <title>Citrix Secure Sign In</title>
+    
+    <link href="/static/g2w/images/g2w_favicon.ico" rel="shortcut icon" />
+
+    
+        
+        <link href="//weblibrary.cdn.citrixonline.com/togo/3.1.11/styles/togo.css" rel="stylesheet" type="text/css" />
+    
+        <link href="/static/weblibrary3/styles/cas.css" rel="stylesheet" type="text/css" />
+    
+
+    
+        
+        <link href="/static/g2w/styles/background.css" rel="stylesheet" type="text/css" />
+    
+        <link href="/static/g2w/styles/g2w.css" rel="stylesheet" type="text/css" />
+    
+
+<script async="" id="tealium-tag-7110" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//tags.tiqcdn.com/utag/citrix/unifiedcommerce-postlogin/dev/utag.14.js?utv=ut4.002.201502182053" id="utag_citrix.unifiedcommerce-postlogin_14"></script><script type="text/javascript" src="//tags.tiqcdn.com/utag/citrix/unifiedcommerce-postlogin/dev/utag.17.js?utv=ut4.002.201502182053" id="utag_citrix.unifiedcommerce-postlogin_17"></script><script type="text/javascript" src="//tags.tiqcdn.com/utag/citrix/unifiedcommerce-postlogin/dev/utag.53.js?utv=ut4.002.201502182053" id="utag_citrix.unifiedcommerce-postlogin_53"></script><script type="text/javascript" src="//tags.tiqcdn.com/utag/citrix/unifiedcommerce-postlogin/dev/utag.70.js?utv=ut4.002.201502182053" id="utag_citrix.unifiedcommerce-postlogin_70"></script><script type="text/javascript" src="//cdn.optimizely.com/js/151712929.js"></script></head>
+   <body id="g2w">
+
+    
+
+
+<section class="nebula">
+    <div class="xp2"></div>
+    <div class="rd-c2"></div>
+    <div class="rd-c1"></div>
+    <div class="rd-e1"></div>
+    <div class="rd-sw"></div>
+    <div class="xp"></div>
+    <div class="xp-se"></div>
+    <div class="xp-nw"></div>
+    <div class="bg"></div>
+</section>
+
+    
+
+
+
+
+
+
+    <form method="post" action="/login?service=https%3A%2F%2Fglobaled1.g2w.test.expertcity.com%2Fj_spring_cas_security_check" id="credentials">
+            <div id="loginBoxContent">
+                <div class="row text-center" id="productLogo">
+                    
+                    <img src="/static/g2w/images/g2wlogo.png" />
+                </div>
+
+                <div class="row errorContent">
+                    
+                </div>
+
+                <div class="inputFields">
+                    
+                    <input type="email" value="" required="true" placeholder="Email address" autofocus="true" tabindex="1" title="Email" name="emailAddress" id="emailAddress" />
+                     <div class="errorBox inlineErrorEmail">
+                            <div class="col-xs-1 centerBox">
+                                <i class="fa fa-ban fa-2x vcenter"></i>
+                            </div>
+                            <div id="errorText" class="col-xs-11 centerBox">
+                                
+                            </div>
+                     </div>
+
+                    <div style="display:none;" id="emailAddress_emailError">
+                        <i style="color:#FC9C36; margin-right:7px;" class="citrix-icon citrix-icon-alert fa-lg vcenter"></i>
+                    <a style="color:#D84633;text-decoration: none;" id="emailAddressdidYouMean">Did you mean </a><a style="text-decoration: none; color:#D84633" id="emailAddressemailQuestionMark">?</a><a style="margin-left:10px; cursor:pointer;color:#3376a4" value="0" id="emailAddress_yes">Yes</a><a style="margin-left:4px; color:black" id="emailAddress_divider">|</a><a style="margin-left:4px; cursor:pointer; color:#3376a4" id="emailAddress_no">No</a></div>
+                    
+                    <input type="password" value="" placeholder="Password" tabindex="2" name="password" id="password" />
+                    <div class="errorBox inlineErrorPassword">
+                        <div class="col-xs-1 centerBox">
+                            <i class="fa fa-ban fa-2x vcenter"></i>
+                        </div>
+                        <div id="errorText" class="col-xs-11 centerBox">
+                            
+                        </div>
+                    </div>
+
+
+                    <input type="submit" value="Sign in" accesskey="l" tabindex="4" class="btn btn-block" name="submit" id="submit" />
+                </div>
+
+                <div id="rememberForgotBox" class="row">
+                    <div class="col-xs-6">
+                        <div id="rememberMeCheckbox">
+                           <span tabindex="3" class="citrixicon-checkbox fa-stack">
+                              <i class="citrix-icon citrix-icon-checkbox-box fa-stack-1x underlay"></i>
+                              <i class="citrix-icon citrix-icon-checkbox-check fa-stack-1x overlay"></i>
+                              <input type="checkbox" checked="checked" value="true" name="rememberMe" style="display:none;" id="rememberMe" />
+                            </span>
+                            Remember me
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div id="forgotPassword">
+                            <a href="https://logined1.col.test.expertcity.com/pwdrecovery/pwdrecovery" tabindex="5">Forgot your password?</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin: 40px 30px -15px 40px;" class="row text-center" id="activeDirectory">
+                  <div class="row text-center">
+                      <div class="col-xs-12">
+                            <a title="" data-placement="right" data-toggle="tooltip" style="color: #6AC7FF;" href="https://logined1.col.test.expertcity.com/saml/sp/client" class="teamIDLink" data-original-title="Sign in with the email address and password you use with your employer.">
+                                Use my company ID
+                            </a>
+                      </div>
+                  </div>
+                </div>
+
+
+
+                
+                
+ <div id="noAccount">
+    Want to hold your own webinars but need an account?
+</div>
+<div id="freeTrial">
+    <a tabindex="6" href="https://secureed1.citrixonline.com/commerce/buy?catalog=8&amp;promotion=nocc">
+        Learn about GoToWebinar &amp; start a free trial
+    </a>
+</div>
+
+            </div>
+
+    
+
+
+
+
+
+<div id="footer">
+    <a tabindex="12" href="http://s.gotomeeting.com/About_en-US">            About us</a>|
+    
+    <a tabindex="14" href="http://www.citrixonline.com/collaboration/terms_of_service">     Terms of service</a>|
+    <a tabindex="15" href="http://www.citrixonline.com/collaboration/privacy_overview_popup">     Privacy policy</a>|
+    <a tabindex="16" href="http://support.citrixonline.com/GoToWebinar">  24/7 Support</a>
+</div>
+
+    <input type="hidden" value="submit" name="_eventId" />
+    <input type="hidden" value="LT-17350-Qysof3xgWzPzZA5EPMAzSaeMFPb0G9-cas1ed1svc1.cs.qai.expertcity.com-CAS1" name="lt" />
+    <input type="hidden" value="e2s1" name="execution" />
+</form>
+
+    <div id="citrixLogo">
+        
+        <img src="/static/weblibrary3/images/smallCitrix.png" />
+    </div>
+
+    
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+    
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" type="text/javascript"></script>
+    
+        <script src="//weblibrary.cdn.citrixonline.com/emailDomainVerification/1.0.6/emailDomainVerificationLibrary.min.js" type="text/javascript"></script>
+    
+        <script src="/static/weblibrary3/scripts/jquery.placeholder.min.js" type="text/javascript"></script>
+    
+        <script src="/static/weblibrary3/scripts/weblibrary3.js" type="text/javascript"></script>
+    
+
+    <script>
+        window.errorUrls = {
+            'contact-gcs': 'http:\/\/support.citrixonline.com\/GoToWebinar',
+            'reset-pw': 'https:\/\/logined1.col.test.expertcity.com\/pwdrecovery\/pwdrecovery'
+        };
+    </script>
+    
+
+
+
+
+
+
+
+
+
+    
+    <script type="text/javascript">
+        var utag_data = {
+            language: 'en',
+            website_country: 'us',
+            product: 'g2w',
+            section: 'u_commerce',
+            template: 'login'
+        };
+    </script>
+
+    
+    <script src="//tealium.hs.llnwd.net/o43/utag/citrix/unifiedcommerce-postlogin/dev/utag.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+    (function ($) {
+        $(function () {
+            var trackerId = $.trim('UA-13182632-1');
+            if (trackerId) {
+                //For testing on localhost only
+                //_gat._getTracker(trackerId)._setDomainName('none');
+
+                $("#credentials").submit(function (event) {
+                
+                    if ($("input[id='rememberMe']").is(':checked')) {
+                        try {
+                            _gat._getTracker(trackerId)._trackEvent('login', 'rememberme_login', 'g2w');
+                        } catch (err) {
+                        }
+                    }
+                    else {
+                        try {
+                            _gat._getTracker(trackerId)._trackEvent('login', 'login', 'g2w');
+                        } catch (err) {
+                        }
+                    }
+                });
+
+                //if user hit the success/error/logout page track event
+                if( $("#successPage").length &gt; 0){
+                    try {
+                        _gat._getTracker(trackerId)._trackPageview();
+                        _gat._getTracker(trackerId)._trackEvent('login','successPage','User hit the success page');
+                    } catch(err) {}
+                }else if( $("#errorPage").length &gt; 0){
+                    try {
+                        _gat._getTracker(trackerId)._trackPageview();
+                        _gat._getTracker(trackerId)._trackEvent('login','errorPage','User hit the error page');
+                    } catch(err) {}
+                }else if($("#logoutPage").length &gt; 0){
+                    try {
+                        _gat._getTracker(trackerId)._trackPageview();
+                        _gat._getTracker(trackerId)._trackEvent('login','logoutPage','User hit the logout page');
+                    } catch(err) {}
+                }
+            }
+        });
+    }(jQuery));
+
+
+</script><script type="text/javascript" src="https://ssl.google-analytics.com/ga.js"></script>
+
+
+   
+
+
+</body></html>

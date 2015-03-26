@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  ~ Copyright (c) 1998-2013 Citrix Online LLC
+  ~ All Rights Reserved Worldwide.
+  ~
+  ~ THIS PROGRAM IS CONFIDENTIAL AND PROPRIETARY TO CITRIX ONLINE
+  ~ AND CONSTITUTES A VALUABLE TRADE SECRET. Any unauthorized use,
+  ~ reproduction, modification, or disclosure of this program is
+  ~ strictly prohibited. Any use of this program by an authorized
+  ~ licensee is strictly subject to the terms and conditions,
+  ~ including confidentiality obligations, set forth in the applicable
+  ~ License and Co-Branding Agreement between Citrix Online LLC and
+  ~ the licensee.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.citrix.g2w.webdriver" />
+
+    <bean id="accountService" class="com.citrix.g2w.webdriver.dependencies.AccountServiceProductionImpl" />
+
+    <context:property-placeholder
+            location='classpath:serversettings/live.properties' />
+
+</beans>

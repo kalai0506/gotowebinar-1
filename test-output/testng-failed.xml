@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.citrix.g2w.webdriver.tests.branding.settings.BrandingSettingsPageWebDriverTests">
+        <methods>
+          <include name="afterMethodWebDriverTest"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="beforeMethod"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="cleanUpWebDriver"/>
+          <include name="verifyThemesForSeriesWebinar" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.citrix.g2w.webdriver.tests.branding.settings.BrandingSettingsPageWebDriverTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

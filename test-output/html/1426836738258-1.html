@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9" lang="en"><![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10" lang="en"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class=" js no-touch borderradius cssgradients pointerevents"><!--<![endif]--><head>
+    <meta charset="utf-8" />
+    <title>Manage Webinar</title>
+    <link href="/g2wbroker/images/favicon.ico" rel="shortcut icon" />
+    <link href="/g2wbroker/images/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="https://static.citrixonlinecdn.com/web-library-2/styles/g2w-common.css" rel="stylesheet" type="text/css" />
+    <link href="/g2wbroker/styles/common/g2w.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 8]>
+        <link rel="stylesheet" href="/g2wbroker/styles/common/ie/g2w-ie8.css">
+    <![endif]-->
+    <!--[if IE 9]>
+        <link rel="stylesheet" href="/g2wbroker/styles/common/ie/g2w-ie9.css"
+    <![endif]-->
+
+    <link href="/g2wbroker/styles/page/manageWebinar.css?Mar%2020,%202015%2012:30:56%20AM" rel="stylesheet" type="text/css" />
+    <link href="//weblibrary.cdn.citrixonline.com/project-dinosaur/1.0.11/dinosaur-g2w.min.css" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="//weblibrary.cdn.citrixonline.com/fonts/citrix-icons/1.0.9/styles/citrixicons.css" rel="stylesheet" />
+
+    <!-- start Mixpanel --><script src="//tags.tiqcdn.com/utag/citrix/webinar-postlogin/dev/utag.js" type="text/javascript" async=""></script><script type="text/javascript" async="" src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js"></script><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&amp;&amp;(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&amp;&amp;(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g&lt;i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+mixpanel.init("9a55c0ca8e8e15f41d7344f60b6e6c5a");</script><!-- end Mixpanel -->
+
+<script type="text/javascript" async="" charset="utf-8" src="//tags.tiqcdn.com/utag/citrix/webinar-postlogin/dev/utag.3.js?utv=ut4.30.201502101913" id="utag_citrix.webinar-postlogin_3"></script></head>
+
+
+
+<body class="g2w" id="manageWebinar"><div style="display: none;" id="lightningjs-wootric"><div><iframe frameborder="0" id="lightningjs-frame-wootric"></iframe></div></div>
+    <div class="container">
+        <noscript>
+            &lt;div id="noJSWarning" class="message-banner warning-banner"&gt;
+                &lt;div class="banner-content"&gt;
+                    &lt;p&gt;To use GoToWebinar you must have JavaScript&lt;sup&gt;™&lt;/sup&gt; enabled. Please enable JavaScript in your browser's preferences.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </noscript>
+        <div class="header">
+            <a href="https://globaled1.g2w.test.expertcity.com/webinars.tmpl">
+                <div class="header-logo"></div>
+            </a>
+            <div class="header-nav">
+    <ul class="nav-links">
+                    <li id="g2m">
+                <a href="https://globaled1.g2m.test.expertcity.com/meeting/myMeetings.html" name="topNavLnk_mymeetings">GoToMeeting</a>
+            </li>
+                            <li id="g2w">
+                <a href="https://globaled1.g2w.test.expertcity.com/webinars.tmpl" class="current" name="topNavLnk_mywebinars">GoToWebinar</a>
+            </li>
+                                                <li id="account">
+            <a href="https://secureed1.citrixonline.com/commerce/myAccount.tmpl" name="topNavLnk_myaccount">My Account</a>
+        </li>
+                <li id="training_support">
+            <a target="_blank" href="http://support.citrixonline.com/webinar" name="topNavLnk_support">24/7 Support</a>
+        </li>
+                <li class="last-child">
+            <a href="/j_spring_security_logout" name="topNavLnk_logout">Log Out</a>
+        </li>
+            </ul>
+</div>        </div>
+        <div class="container-content">
+            
+
+<div class="sidebar">
+    <div class="sidebar-content">
+        <div class="sidebar-content-shadow">
+            <ul class="sidebar-nav">
+                <li class="current">
+                    <a href="/g2wbroker/webinars.tmpl">My Webinars</a>
+                </li>
+                <li>
+                    <a href="/g2wbroker/schedule.tmpl">Schedule a Webinar</a>
+                </li>
+                <li>
+                    <a href="/g2wbroker/recordings.tmpl">My Recordings</a>
+                </li>
+                <li>
+                    <a href="/g2wbroker/history.tmpl">Webinar History</a>
+                </li>
+                <li>
+                    <a href="/g2wbroker/reporting/generateReports.tmpl">Generate Reports</a>
+                </li>
+                <li>
+                    <a href="/g2wbroker/settings.tmpl">Settings</a>
+                </li>
+                                                                
+                                                                            </ul>
+                                  </div>
+    </div>
+</div>
+            <div class="main">
+                <ul class="breadcrumb">
+    <li><a href="/g2wbroker/webinars.tmpl">My Webinars</a></li>
+    <li>Manage Webinar</li>
+</ul>                
+<h1>
+    
+
+    Manage Webinar for "Webinars - 1426836731030-1"</h1>
+
+        <div class="message-banner confirmation-banner sheet" style="margin-top: 0px; left: 225.5px;">
+        <div class="banner-content">
+                        <p>
+                                Webinar scheduled. Please edit the settings below.                            </p>
+                </div>
+    </div>
+                    
+
+<script type="text/javascript">
+    var msgCopyRegistrationLinkToClipboard = 'You&amp;#39;ve copied the registration link&amp;#33; Please paste it anywhere you like.';
+</script>
+
+<div data-amid="113516763" data-omid="2370243969545973763" data-webinarkey="3655424628346368002" class="webinar-data">
+</div>
+
+
+
+                	 	
+<span class="hide" id="emailCharsOk">true</span>
+<span class="hide" id="emailSubject">Join Us for Webinars - 1426836731030-1</span>
+<div class="hide" id="emailBody">
+    <span id="webinarEmailTitle">Webinars - 1426836731030-1</span>
+    <span id="webinarEmailBody1">Join us for a webinar on Mar 20, 2015 at 3:00 AM PDT.</span>
+                <span id="webinarEmailBody2">Register now!</span>
+        <span id="webinarEmailConfirmation">After registering, you will receive a confirmation email containing information about joining the webinar.</span>
+    <span id="webinarEmailRegURL">https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002</span>
+    <span id="webinarEmailDesc">Webinars Description - 1426836731030-1</span>
+    <span id="webinarEmailSysReqs1">View the System Requirements: </span>
+    <span id="webinarEmailSysReqs2">http://support.citrixonline.com/s/G2W/Help/SystemRequirements </span>
+    <span id="webinarEmailFooter">Brought to you by GoToWebinar ®%0D%0AWebinars Made Easy ®%0D%0ACitrix Online %7C 7414 Hollister Avenue %7C Goleta, CA 93117</span>
+    </div>
+
+<div class="button-bar">
+    <div class="button-bar left">
+        <a class="symphony" id="inviteButton">
+            <div class="btn-bg">
+                <b class="icon share"></b>
+                <span>Share</span>
+            </div>
+        </a>
+        <div class="hide" id="inviteActions">
+            <ul>
+                <li><a data-invite-url="/g2wbroker/email/invite.tmpl?webinar=3655424628346368002" class="email-invitation-link" href="#emailInvitation"><span class="icon"></span>Email Me the Invitation</a></li>
+                <li><a class="copy-clipboard-link" id="copyClipboardLink" href="#clipBoardContainer"><span class="icon"></span>Copy Webinar Information</a></li>
+                <li><a data-clipboard-text="https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002" class="copy-clipboard-link-without-detail" id="copyClipboardLinkWithoutDetail" href="#"><span class="icon"></span>Copy registration link</a></li>
+                <li><a class="twitter-share-button" id="tweetRegistration" href="https://twitter.com/share"><span class="icon"></span>Post to Twitter</a></li>
+                <li><a class="facebook-feed-dialog" id="facebookDialog" href="http://www.facebook.com/sharer.php"><span class="icon"></span>Post to Facebook</a></li>
+                <li><a class="linkedin-share-article" id="linkedInShare" href="http://www.linkedin.com/shareArticle"><span class="icon"></span>Post to LinkedIn</a></li>
+            </ul>
+        </div>
+        <div id="webinarLinks">
+            <a id="scheduleSimilar" href="/g2wbroker/copy.tmpl?webinar=3655424628346368002">Schedule Similar Webinar</a>
+            <a class="cancel-webinar cancel-all" id="cancelall_3655424628346368002" href="#cancelWebinarContainer">Cancel Webinar</a>
+        </div>
+    </div>
+    <div class="button-bar right">
+            <form method="post" action="/g2wbroker/join/organizer/launch.tmpl" class="startForm">
+    <input type="hidden" value="3655424628346368002" name="webinar" />
+    <input type="hidden" value="3368989754682780681" name="user" />
+    <input type="hidden" value="Practice" name="webinarMode" />
+                    <div class="symphony practice">
+        <div class="btn-bg">
+                    <b class="icon webinar"></b>
+                    <input type="submit" value="Practice" name="start" class="submit" />
+        </div>
+    </div>
+</form>
+                <form method="post" action="/g2wbroker/join/organizer/launch.tmpl" class="startForm">
+    <input type="hidden" value="3655424628346368002" name="webinar" />
+    <input type="hidden" value="3368989754682780681" name="user" />
+    <input type="hidden" value="Start" name="webinarMode" />
+                    <div class="symphony start">
+        <div class="btn-bg">
+                    <b class="icon webinar"></b>
+                    <input type="submit" value="Start" name="start" class="submit" />
+        </div>
+    </div>
+</form>
+    
+    </div>
+</div>
+<div class="border-box gray">
+    <div class="border-box-content">
+        <h2>Set Up Your Webinar</h2>
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+
+
+
+                    <a class="edit-link" id="editNameDescription" href="/g2wbroker/webinarNameDesc/edit.tmpl?webinar=3655424628346368002">Edit</a>
+                    <p class="subtitle">Title</p>
+                <div id="nameDescription">
+                    <p class="flush-bottom" id="trainingName">Webinars - 1426836731030-1</p>
+                    <p class="subtitle">Description</p>
+
+
+                    <p class="flush-bottom" id="trainingDesc">Webinars Description - 1426836731030-1</p>
+                    <span class="hide" id="trainingDescLength">38</span>
+                    <span class="hide" id="moreDesc">More...</span>
+                    <span class="hide" id="lessDesc">Less...</span>
+                </div>
+            </div>
+        </div>
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+
+
+                                    <a class="edit-link" id="editDateTime" href="/g2wbroker/webinarDateTime/edit.tmpl?webinar=3655424628346368002">Edit</a>
+                    <p class="subtitle">Date and Time</p>
+
+                <div data-hasregistrants="0" id="dateTime">
+    
+							                        <p class="time">Fri, Mar 20, 2015 3:00 AM - 4:00 AM PDT</p>
+                </div>
+    <ul class="inline-links" id="calendarUrl">
+        <li><a href="/g2wbroker/icsCalendar.tmpl?webinar=3655424628346368002&amp;user=3368989754682780681">Add to Calendar</a></li>
+    </ul><br /><br />
+
+                <div class="flush-bottom" id="webinar-language">
+                    <p class="subtitle">Webinar language</p>
+                    <p class="flush-bottom" id="locale">English</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="border-box white">
+        <div class="border-box-content summary">
+
+
+
+
+                    <a class="edit-link" id="editAudio" href="/g2wbroker/audio/settings.tmpl?webinar=3655424628346368002">Edit</a>
+                    <p class="subtitle">Audio</p>
+                <div id="audio">
+                        <p id="audioInstructions">Participants can use their computer's microphone and speakers (VoIP) or telephone.</p>
+                                                    <div class="audioCountryNum">
+                        <p class="flush-bottom">
+                            <span id="cCountry">United States</span><br />
+                                                    Long distance: +1 (805) 879-4198<br />
+                                        Audio PIN: Shown after joining the webinar                                    </p>
+                                    <div class="border-box gray">
+                            <div class="border-box-content">
+                                <div class="box-column">
+                                    <div class="image-box">
+                                        <!--<img src="https://s3.amazonaws.com/uploads.hipchat.com/115572/1097326/FSgIzeZaMEMucJg/Mic_unmuted.png"/>-->
+                                        <i class="citrix-icon citrix-icon-mic text-success fa-2x"></i>
+
+
+                                    </div>
+                                    <div class="text-box">
+                                        <p>
+                                            <span class="audio-role-bold">Organizer</span> - unmuted<br />
+                                            Access Code: 849-880-674                                        </p>
+                                    </div>
+                                </div>
+                                <div class="box-column">
+                                    <div class="image-box">
+                                        <i class="citrix-icon citrix-icon-mic text-success fa-2x"></i>
+                                    </div>
+                                    <div class="text-box">
+                                        <p>
+                                            <span class="audio-role-bold">Panelist</span> - unmuted<br />
+                                            Access Code: 966-876-200                                        </p>
+                                    </div>
+                                </div>
+                                <div class="box-column last">
+                                    <div class="image-box">
+                                        <i class="citrix-icon citrix-icon-mic-mute text-danger fa-2x"></i>
+                                    </div>
+                                    <div class="text-box">
+                                        <p>
+                                            <span class="audio-role-bold">Attendee</span> - muted<br />
+                                            Access Code: 717-798-283                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                </div>
+                            </div>
+            </div>
+
+        </div>
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+
+
+                <a class="edit-link" id="editBranding" href="/g2wbroker/branding/manage.tmpl?webinar=3655424628346368002">Edit</a>
+                <p class="subtitle">Branding and themes</p>
+                <div id="branding">
+                    <p class="flush-bottom">Customize the branding for this webinar.</p>
+                </div>
+            </div>
+        </div>
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+
+
+
+                        <a class="edit-link" id="editCoOrgs" href="/g2wbroker/coorganizers/manage.tmpl?webinar=3655424628346368002">Edit</a>
+                    <p class="subtitle">Co-organizers</p>
+
+                <div id="coorganizers">
+                            <p id="co1">No co-organizers.</p>
+                        </div>
+
+                    <a class="edit-link" id="editPanelist" href="/g2wbroker/panelist/edit.tmpl?webinar=3655424628346368002">Edit</a>
+                    <p class="subtitle">Panelists</p>
+                <div id="panelist">
+                    <p class="flush-bottom">No panelists.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="border-box gray">
+    <div class="border-box-content">
+        <h2>Share Your Webinar</h2>
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+                <div class="invite-section">
+                    <p class="subtitle">Invite Your Attendees</p>
+                    <p>
+                        Registration URL: <a target="_blank" id="registrationURL" href="https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002">https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002</a><br />
+
+                        Webinar ID: <span id="WebinarInfoID">            113-516-763    </span>
+                    </p>
+                    <p class="flush-bottom">
+                        <a class="invite email-link" data-invite-url="/g2wbroker/email/invite.tmpl?webinar=3655424628346368002" href="#emailInvitation">Email Me the Invitation</a>
+                        <a class="invite clipboard-link" id="clipboardLink" href="#clipBoardContainer">Copy Webinar Information</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+
+
+                <a class="edit-link" id="editRegistrationSettings" href="/g2wbroker/registration/edit.tmpl?webinar=3655424628346368002">Edit</a>
+
+
+                <div class="registration-section first" id="registration-setup">
+                    <p class="subtitle">Registration Settings</p>
+                    <p class="flush-bottom">
+                        Registrant Limit:                       250
+                        <br />
+                        Notification:                        No                    </p>
+                </div>
+                <hr class="section-separator" />
+                <div class="registration-section last" id="registration-management">
+                                                            <a class="edit-link" id="regMgmtLink" href="/g2wbroker/registrant/registrantList.tmpl?webinar=3655424628346368002">View</a>
+
+                    <p class="subtitle">Tracking Registrants</p>
+                    <p class="flush-bottom">
+                        Registrants:
+                            <span id="reg_3655424628346368002">0
+</span>
+                            <br />
+            Automatically Approved                        </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+
+
+                <p class="subtitle">Emails</p>
+                <div class="email-section first" id="replyToEmailSection">
+                    <p class="section-left">
+                        Reply-to:                        <span id="replyToName">auto org</span>, 
+                            <a href="mailto:webtest.user-1426836600945-1@jedix.com" id="replyToEmail">webtest.user-1426836600945-1@jedix.com</a>
+    
+                    </p>
+                    <p class="section-right"><a class="edit-link" id="editReplyToAddress" href="#replyEmailContainer">Edit</a></p>
+                </div>
+                <div class="email-section" id="confirmationEmailSection">
+                    <p class="section-left">
+                            Confirmation Email to Registrants:                                                            Send upon registration                                                </p>
+                    <p class="section-right">
+                        <a class="edit-link" id="editConfirmation" href="/g2wbroker/email/confirmation.tmpl?webinar=3655424628346368002">Edit</a>
+                    </p>
+                </div>
+                <div class="email-section" id="reminderEmailSection">
+                    <div class="section-left">
+	<p>Reminder Email:                                                                    
+            
+                                		                    		                
+        Send
+                                    1                Hour            
+        
+        before webinar        </p>
+                    </div>
+                    <p class="section-right"><a class="edit-link" id="editReminder" href="/g2wbroker/email/reminder.tmpl?webinar=3655424628346368002">Edit</a></p>
+
+                </div>
+                <div class="email-section" id="followUpEmailSection">
+                    <p class="section-left">
+
+        
+
+                            Follow-up Email to Attendees: Send 1 Day after the session                        </p>
+                                            <p class="section-right"><a class="edit-link" id="editFollowUp" href="/g2wbroker/email/settings.tmpl?webinar=3655424628346368002">Edit</a></p>
+                                    </div>
+                <div class="email-section" id="followUpEmailSectionAbsentee">
+                    <p class="section-left">
+
+        
+
+                        No follow-up email to Absentees.                    </p>
+                                            <p class="section-right"><a class="edit-link" id="editFollowUpToAbsentees" href="/g2wbroker/email/followup-absentee.tmpl?webinar=3655424628346368002">Edit</a></p>
+                                    </div>
+                <div class="email-section" id="manageRecordings" style="margin-top:15px;">
+                	<input type="hidden" value="true" id="attendeeToBeSent" />
+                	<input type="hidden" value="false" id="absenteeToBeSent" />
+	    			<p class="subtitle section-left">Recordings</p>
+	    			<p class="section-right"><a class="edit-link" id="manageRecordingsLink" href="manageRecordings.tmpl?webinar=3655424628346368002">Edit</a></p>
+	    			<div class="hide" id="sharedWithRecordings">
+	    				<table style="float:left;border:0px;color:#666;"><tbody><tr>
+	    				<td style="float:left;border:0px;color:#666;">
+	    				<span id="sharedWith">Shared with:</span></td>
+	    				<td style="float:left;border:0px;color:#666;">
+	    				<span class="hide" id="newRegistrant"> New registrants after the webinar ends<br /></span>
+	    				<span class="hide" id="attendees"> Attendees in the follow-up email<br /></span>
+	    				<span class="hide" id="absentees"> Absentees in the follow-up email<br /></span>
+	    				</td>
+	    				</tr>
+	    				</tbody></table>
+	    			</div>
+	    			<div class="hide" id="noRecordings" style="display: block;">
+	    				    					<p id="myRecordingDesc"> No recordings for this webinar. Visit <a href="/recordings.tmpl">My Recordings</a> to upload a .wmv, .mov or .mp4 file.</p>
+	    			</div>
+            	</div>
+                    </div>
+        </div>
+    </div>
+  
+</div>
+<div class="border-box gray">
+    <div class="border-box-content">
+        <h2>Engage Your Attendees</h2>
+
+
+
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+                                            <a class="edit-link" id="editHandouts" href="/g2wbroker/handouts/manage.tmpl?webinar=3655424628346368002">Edit</a>
+                                            <p class="subtitle">Handouts</p>
+
+                <div id="handouts">Share up to 5 handouts during the webinar.</div>
+
+            </div>
+        </div>
+
+
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+
+            <a class="edit-link" id="editPolls" href="/g2wbroker/poll/create.tmpl?webinar=3655424628346368002">Edit</a>
+                    <p class="subtitle">Polls </p>
+                <div class="section-left" id="polls">
+
+                     <p class="flush-bottom">No polls.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="border-box white">
+            <div class="border-box-content summary">
+
+                <a class="edit-link" id="editSurveys" href="/g2wbroker/survey/create.tmpl?webinar=3655424628346368002">Edit</a>
+
+                <p class="subtitle">Survey</p>
+                <div id="survey">
+                <p class="flush-bottom">No survey.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+            <div class="clear-both"></div>
+        </div>
+        
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-nav">
+            <ul class="nav-links">
+                <li><a target="_blank" href="http://s.gotomeeting.com/About_en-US">About Us</a></li>
+                <li><a target="_blank" href="http://www.citrixonline.com/collaboration/terms_of_service">Terms of Service</a></li>
+                <li><a target="_blank" href="http://www.citrix.com/about/legal/citrix-online-privacy-policy-overview-en.html">Privacy Policy</a></li>
+                <li class="last-child"><a target="_blank" href="http://www.gotomeeting.com/fec/refer_gotomeeting?prod=g2w">Send a Friend a Free Trial</a></li>
+            </ul>
+        </div>
+        <div class="footer-logo">
+            <a target="_blank" class="footerLogo" href="http://www.citrixonline.com">Citrix® Online</a>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+	© 2015 Citrix Online, LLC. All rights reserved.             <br /><br />
+        Citrix Online Audio, LLC. All OpenVoice audio conferencing services are provided by Citrix Online Audio, LLC. Citrix Online Audio, LLC is a telecommunications provider and is responsible for the rates, terms and conditions of the audio conferencing services.     </div>    </div>
+    <div id="popups">
+                                            
+<div title="Characters Not Supported" class="hide" id="emailCharsContainer">
+    <p>Some characters (including @, #, $, %, (, ), &amp;, and *) are not supported in the email subject line and body.  To use these characters in your webinar title, click <a id="closeAndCopy" href="#copyText">Copy Webinar Information</a> to copy and paste this information into an email.</p>
+    <div class="modal-actions">
+        <a class="symphony" id="emailCharsContinue">
+            <div class="btn-bg">
+                <span>Open Email</span>
+            </div>
+        </a>
+        <a class="cancel-modal" id="emailCharsCancel">Cancel</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div title="Publish Webinar to Catalogs" class="hide" id="catalogModal">
+
+
+    <p>Catalogs have not been created yet. <a href="/manage/catalog/create.tmpl?webinar=3655424628346368002">Create a new catalog</a></p>
+</div>
+
+<div class="hide" id="copyWebinar">
+    <p>Copying a webinar allows you to copy everything that has been set up for this webinar and quickly schedule it. This means you don't have to start from scratch when creating a new webinar session!</p>
+    <h4>What Is Copied?</h4>
+    <p>Title, Description, Audio Settings, Polls, Email Notifications and any customized email text, Surveys and Survey Settings.</p>
+    <h4>What Isn't Copied?</h4>
+            <p>Anything regarding the Date and Time, the Time Zone or if the webinar recurs.</p>
+    <p><input type="checkbox" class="stopBalloon" /><label>Do not show again</label></p>
+</div>
+
+<span class="springMessage" id="tweetRegistration-url">https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002</span>
+<span class="springMessage" id="tweetRegistration-text">Sign up for Webinars - 1426836731030-1</span>
+<span class="springMessage" id="tweetRegistration-via">GoToWebinar</span>
+
+
+<span class="springMessage" id="facebookDialog-link">https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002</span>
+<span class="springMessage" id="facebookDialog-name">Webinars - 1426836731030-1</span>
+<span class="springMessage" id="facebookDialog-caption">Powered by GoToWebinar®</span>
+<span class="springMessage" id="facebookDialog-description">Webinars Description - 1426836731030-1</span>
+<span class="springMessage" id="facebookDialog-actionText">Register</span>
+
+<div style="display: none; margin-top: 0px; left: 225.5px;" class="message-banner confirmation-banner sheet defer" id="facebookDialog-success">
+    <div class="banner-content">
+        <p>This webinar was posted to Facebook.</p>
+    </div>
+</div>
+
+<div style="display: none; margin-top: 0px; left: 225.5px;" class="message-banner confirmation-banner sheet defer" id="facebookDialog-loggedOut">
+    <div class="banner-content">
+        <p>You have been logged out of Facebook.</p>
+    </div>
+</div>
+
+<div class="message-banner warning-banner sheet hide" id="facebookDialog-cancel">
+    <div class="banner-content">
+        <p>This webinar wasn't posted to Facebook.</p>
+    </div>
+</div>
+
+<div style="margin-top: -2px; left: 671px;" class="message-banner warning-banner sheet hide" id="facebookDialog-error">
+    <div class="banner-content">
+        <p>Unfortunately, Facebook can't process your request right now. Please refresh this page and try again later.</p>
+    </div>
+</div>
+
+<div class="hide" id="facebookDialog-times">
+                        
+						                <span class="link">Fri, Mar 20, 2015 3:00 AM - 4:00 AM PDT</span>
+                    </div>
+
+<span class="springMessage" id="linkedInShare-url">https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002</span>
+<span class="springMessage" id="linkedInShare-title">Webinars - 1426836731030-1</span>
+<span class="springMessage" id="linkedInShare-summary">Webinars Description - 1426836731030-1</span>
+<span class="springMessage" id="linkedInShare-source">Powered by GoToWebinar®</span>
+<input type="hidden" value="https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002" name="linkedInShare-url" id="linkedInShare-url2" />
+
+<div id="successCopyToClipboardBanner">
+    <div style="display: none; margin-top: 0px; left: 225.5px;" class="message-banner confirmation-banner sheet defer">
+        <div class="banner-content">
+            <p>You've copied the registration link! Please paste it anywhere you like.</p>
+        </div>
+    </div>
+</div>                            <div id="fb-root"><script async="" src="https://connect.facebook.net/en_US/all.js"></script></div>
+
+<div class="hide">
+    <a class="modal-trigger" href="#facebookModalWindow" id="facebookModalWindowTrigger"></a>
+    
+    <span class="hide" id="facebookLoggedIn">Logged in as ${Name} (<a href="#logout">Not You?</a>)</span>
+    <div class="fbMessage" id="facebookLoggedOut">
+        <ul class="messages">
+            <li>You have been logged out of Facebook.</li>
+        </ul>
+    </div>
+</div>
+                        </div>
+    <div id="globalMessages">
+
+<span id="validation.charLimitPopup" class="springMessage">{0} more characters allowed. ({1} max)</span>
+<span id="validation.invalidChars" class="springMessage">This field contains invalid characters.</span>
+</div>
+    <script src="https://static.citrixonlinecdn.com/web-library-2/scripts/web-library.js"></script>
+    <script src="/g2wbroker/scripts/common.js"></script>
+    <script src="/g2wbroker/scripts/mixpanel/mixpanel.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+    <script src="/g2wbroker/scripts/mixpanel/G2WMixPanelEvents.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+    <script src="/g2wbroker/scripts/page/walkme.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+    <script src="/g2wbroker/scripts/tealium/tealium.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+    <script src="/g2wbroker/scripts/tealium/tealiumutagbuilder.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+    <script src="/g2wbroker/scripts/page/wootricnps.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+
+
+        <script src="/g2wbroker/scripts/framework/jquery.i18n.properties-min.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+            <script src="/g2wbroker/scripts/framework/messagebanner.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+            <script src="/g2wbroker/scripts/framework/zclip/ZeroClipboard.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+            <script src="/g2wbroker/scripts/framework/expand-text.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+            <script src="/g2wbroker/scripts/page/manageWebinar.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+            <script src="/g2wbroker/scripts/social/share.js?Mar%2020,%202015%2012:30:56%20AM"></script>
+    
+
+<div id="qtip-rcontainer"></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all" style="outline: 0px none; z-index: 1000; top: 133.003px; left: 392px; display: none; height: auto; width: 300px;" tabindex="-1" role="dialog" aria-labelledby="ui-id-1"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">Copy Webinar Information</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">×</span></a></div><div class="hide ui-dialog-content ui-widget-content" id="clipBoardContainer" style="display: block; width: auto; min-height: 102px; height: auto;">
+    <p>Copy this text and paste it into an email, Web page or document.</p>
+    <div class="border-box white" id="clipContent">
+        <div class="border-box-content">
+            <p id="webinarCopyDescription">
+                	                Please register for Webinars - 1426836731030-1 on Mar 20, 2015 3:00 AM PDT at:                <br /><br /><a href="https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002">https://attendeeed1.g2w.test.expertcity.com/register/3655424628346368002</a><br /><br />
+            Webinars Description - 1426836731030-1<br /><br />
+                After registering, you will receive a confirmation email containing information about joining the webinar.<br /><br />
+                Brought to you by GoToWebinar®<br />
+                Webinars Made Easy®            </p>
+        </div>
+    </div>
+    <div class="modal-actions modal-window">
+        <a class="symphony" id="selectAllButton">
+            <div class="btn-bg">
+                <span>Select All</span>
+            </div>
+        </a>
+        <a class="cancel-modal" id="closeClipBoard">Cancel</a>
+    </div>
+</div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all" style="display: none; outline: 0px none; z-index: 1000;" tabindex="-1" role="dialog" aria-labelledby="ui-id-2"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-2" class="ui-dialog-title">Confirm Webinar Cancellation</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">×</span></a></div><div data-isrecurring="false" class="hide ui-dialog-content ui-widget-content" id="cancelWebinarContainer" style="display: block;">
+        <p class="show-registrant-messaging hide"><strong>Canceling this webinar will revoke all of its registrations. Are you sure?</strong></p>
+    <p class="show-registrant-messaging hide">You will be prompted to send a customized cancellation email in the next step.</p>
+    <p class="extra-space single">Are you sure you want to cancel the webinar?</p>
+    <div class="modal-actions">
+        <a class="symphony" id="confirmDelete">
+            <div class="btn-bg">
+                <span>Yes, Cancel Webinar</span>
+            </div>
+        </a>
+        <a class="cancel-modal" id="cancelDelete">No, Don't Cancel Webinar</a>
+    </div>
+</div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all" style="display: none; outline: 0px none; z-index: 1000;" tabindex="-1" role="dialog" aria-labelledby="ui-id-3"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-3" class="ui-dialog-title">Edit Reply-to Email Address</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">×</span></a></div><div class="hide ui-dialog-content ui-widget-content" id="replyEmailContainer" style="display: block;">
+    <p>You may change the contact information that attendees can use if they have questions about the webinar.</p>
+    <form action="/email/replyTo/edit.tmpl" method="POST" id="replyToForm" novalidate="novalidate">
+        <input type="hidden" value="3655424628346368002" name="webinar" />
+
+        <div class="border-box white">
+            <div class="border-box-content">
+                <div class="form-row">
+                    <div class="form-row-column column-24">
+                        <label for="name" id="nameLabel">Name</label>
+                        <input type="text" value="auto org" maxlength="128" class="text count replyToName" name="name" id="name" />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-row-column column-24">
+                        <label for="email" id="emailLabel">Email Address</label>
+                        <input type="text" value="webtest.user-1426836600945-1@jedix.com" maxlength="128" class="text count replyToEmail" name="email" id="email" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p><a href="/g2wbroker/email/replyTo/delete.tmpl?webinar=3655424628346368002" id="replyToReset">Reset</a></p>
+        <div class="modal-actions modal-window">
+            <div class="symphony">
+                <div class="btn-bg">
+                    <input type="submit" value="Save" id="replyToSubmit" />
+                </div>
+            </div>
+            <a href="#close" class="cancel-modal" id="replyToCancel">Cancel</a>
+        </div>
+    </form>
+    <span id="errorHeader" class="springMessage">Please correct the fields marked in red.</span>
+    <span id="errorMaxLength" class="springMessage">"{0}" has a maximum length of {1} characters.</span>
+    <span id="errorRequired" class="springMessage">"{0}" is a required field.</span>
+    <span id="errorInvalidEmailSingle" class="springMessage">"{0}" is an invalid email address.</span>
+    <span id="errorMismatch" class="springMessage">"{0}" does not match "Email Address".</span>
+    <span id="errorNameRequired" class="hide">This is a required field.</span>
+    <span id="errorEmailMatch" class="hide">The value does not match.</span>
+    <span id="errorEmailInvalid" class="hide">Please enter a valid email address.</span>
+</div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all" style="display: none; outline: 0px none; z-index: 1000;" tabindex="-1" role="dialog" aria-labelledby="ui-id-4"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-4" class="ui-dialog-title">Post to Facebook</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">×</span></a></div><div id="facebookModalWindow" class="ui-dialog-content ui-widget-content">
+        <div class="loading">
+            <p>Loading...</p>
+        </div>
+        <div class="loaded">
+            <p class="intro-pages">Select your Facebook profile or page and customize your post.</p>
+            <p class="intro-personal">Select your Facebook profile and customize your post.</p>
+            <ul id="facebookSelectProfileOrPageContent">
+            </ul>
+        </div>
+        <div class="modal-actions">
+                        <span id="facebookModalWindowLoggedIn"></span>
+            <a href="#close" class="cancel-modal" id="facebookModalWindowCancel">Cancel</a>
+        </div>
+    </div></div><div id="walkMe" style="display: none;"> {"language":"en","userKey":"3368989754682780681","trialer":false,"dateMigrated":null}</div></body></html>
